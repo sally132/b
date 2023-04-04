@@ -1,0 +1,26 @@
+body{
+    font-size:20px;
+}
+  @media screen and (max-width: 480px) {
+        body{
+            font-size:25px;
+            width:480px;
+            }
+
+        span{
+            display:block;
+        }
+        #copy-all{
+            font-size:30px;    
+        }
+#copyalls{
+ font-size:30px;  
+}
+
+textarea{
+    width:270px;
+    height:200px;
+    font-size:20px;
+}
+
+    }
