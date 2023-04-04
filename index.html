@@ -4,40 +4,42 @@
         <title>웹사이트 질문지</title>
         <meta charset="utf-8">
         <link rel="stylesheet" href="css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
         <form>
             <fieldset>
-                <label for="contents" id="a"><h1>자동적 사고 찾기</h1></label>
-                <label for="contents1"><p><h3>*부정적인 사고가 들때마다 왜 그런 생각이 들었는지 상세하게 기록한다.</h3></p></label>
-                <label for="contents2"><p><h2>STEP1. 부정적인 사고에 대한 객관적인 사실 찾기</h2></p></label>
-                <label for="contents1_1"><p>0. 어떤 부정적인 사고가 드는가? </p></label>
+                <label for="contents" id="a"><span><h1>자동적 사고</span> <span>찾기</span> </h1></label>
+                <label for="contents1"><span><p><h3>*부정적인 사고가 들때</span><span>마다 왜 그런 생각이</span> <span>들었는지</span>
+                <span>상세하게 기록한다.</span></h3></p></label>
+                <label for="contents2"><p><h2><span>STEP1. 부정적인 </span><span>사고에 대한 객관</span><span>적인 사실 찾기</span></h2></p></label>
+                <label for="contents1_1"><p><span>0. 어떤 부정적인 사고가</span> <span>드는가?</span> </p></label>
                 <textarea id="memo" cols="200" rows="20"></textarea><br><br>
-                <label for="contents3"><p>1. 그 생각이 사실이란 증거는 무엇인가?</p></label>
+                <label for="contents3"><p><span>1. 그 생각이 사실이란</span> <span>증거는 무엇인가?</span> </p></label>
                 <textarea id="memo1" cols="200" rows="20"></textarea><br><br>
-                <label for="contents4"><p>2. 그 생각이 사실이 아니라는 증거는 무엇인가?</p></label>
+                <label for="contents4"><p><span>2. 그 생각이 사실이</span> <span>아니라는 증거는</span> <span>무엇인가?</span> </p></label>
                 <textarea id="memo2" cols="200" rows="20"></textarea><br><br>
-                <label for="contents5"><p>3. 일어날 수 있는 긍정적인 일은 ?</p></label>
+                <label for="contents5"><p><span>3. 일어날 수 있는</span><span> 긍정적인 일은 ?</span> </p></label>
                 <textarea id="memo3" cols="200" rows="20"></textarea><br><br>
-                <label for="contents6"><p>4. 일어날 수 있는 최악의 일은?</p></label>
+                <label for="contents6"><p><span>4. 일어날 수 있는</span> <span>최악의 일은?</span> </p></label>
                 <textarea id="memo4" cols="200" rows="20"></textarea><br><br>
-         <button onclick="copyText1(5)" id="copy-all">STEP1의 0-4까지 모든 대답 복사하기</button>
-                <label for="contents7"><p><h2>STEP2. 부정적인 사고를 긍정적 합리적인 사고로의 전환</h2></p></label>
+         <button onclick="copyText1(5)" id="copy-all"><span>STEP1의 0-4까지</span><span> 모든 대답</span><span>복사하기</span></button>
+                <label for="contents7"><p><h2><span>STEP2. 부정적인</span> <span>사고를 긍정적</span><span> 합리적인 사고로</span><span> 의 전환</span></h2></p></label>
 
-                <label for="contents3"><p>1. 부정적인 감정을 일으키는 생각은 무엇입니까?</p></label>
+                <label for="contents3"><p><span>1. 부정적인</span><span> 감정을 일으키는</span> <span>생각은</span> <span>무엇입니까?</span></p></label>
 
 <textarea id="memo" cols="200" rows="20"></textarea><br><br>
-                <label for="contents3"><p>2. 내가 부정적인 생각이 드는것에 대해 내가 뭘 원하고 어떤 상황이 되길 바래서 이런 생각을 하는 건지 스스로 질문하고 생각해보기.</p></label>
+                <label for="contents3"><p><span>2. 내가 </span><span>부정적인 </span><span>생각이 드는것에</span><span> 대해 내가 </span><span id="a">뭘 원하고<br><br> </span><span>어떤 상황이 </span><span>되길 바래서</span> <span>이런 생각을 </span><span id="b">하는 건지 <br><br></span><span>스스로 질문하고</span> <span>생각해보기.</span></p></label>
 <textarea id="memo" cols="200" rows="20"></textarea><br><br>
-                <label for="contents3"><p>3. 부정적인 감정대로 행동 했을 때 잃는것은 무엇인지 생각해보기.</p></label>
+                <label for="contents3"><p><span>3. 부정적인 감정대로 </span><span>행동 했을 때 </span><span>잃는것은</span><span> 무엇인지 </span><span>생각해보기.</span></p></label>
 <textarea id="memo" cols="200" rows="20"></textarea><br><br>
-                <label for="contents3"><p>4. 이런 생각이 드는 이유는 나의 탓이 아닌 무의식에서의 자동적사고에 의한 것임을 인정하고 스스로 괜찮다고 말해주며 극복 할수 있다고 확언 필사하기</p></label>
+                <label for="contents3"><p><span>4. 이런 생각이 드는</span><span> 이유는 </span><span>나의 탓이 </span><span>아닌 </span><span>무의식에서의</span> <span>자동적사고에<br><br></span> <span>의한 것임을</span><span> 인정하고 </span><span>스스로 </span><span>괜찮다고 </span><span>말해주며<br><br></span> <span>극복 할 수 있다고 </span><span>확언 필사하기</span></p></label>
 
-                <label for="contents3"><p>EX. 내가 지금까지 이렇게 부정적인 사고를 했던것 은 나의 잘못이 아니야. 무의식 일뿐 이고! 나는 변화 할수 있어.! 나는 할수 있다!</p></label>
+                <label for="contents3"><p><span>EX. 내가 </span><span>지금까지</span> <span>이렇게</span> <span>부정적인 </span><span>사고를 했던</span> <span>것은 나의 잘못이</span><span> 아니야. <br><br></span><span>무의식일 뿐이고!</span><span> 나는 변화 </span><span>할 수</span> <span>있어! </span><span> 나는 할 수 있다!</span></p></label>
 <textarea id="memo" cols="200" rows="20"></textarea><br><br>
 
 
- <button onclick="copyText1(6)" id="copyalls">STEP2의 모든 대답 복사하기</button>
+ <button onclick="copyText1(6)" id="copyalls"><span>STEP2의 모든 대답</span> <span>복사하기 </span></button>
 
 
 
