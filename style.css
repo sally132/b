@@ -1,7 +1,7 @@
 body{
     font-size:20px;
 }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 425px) {
         body{
             font-size:25px;
             width:480px;
